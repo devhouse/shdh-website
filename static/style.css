@@ -1,0 +1,198 @@
+@font-face {
+    font-family: mari-david;
+    src: url(/static/mari-david.ttf);
+}
+
+body {
+    font-family: "Ubuntu", Helvetica, Arial;
+    background: #f2f2f2 url(/static/images/bg.gif) no-repeat center top;
+    color: #333;
+    font-size: 14px;
+}
+
+a img {
+    border: 0px;
+}
+
+#wrapper {
+    width: 1012px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header {
+    text-align: center;
+}
+
+#header img {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    width: 522px;
+    height: 71px;
+}
+
+#header h2 {
+    text-indent: -1000em;
+    width: 1006px;
+    height: 119px;
+    background-image: url(/static/images/headline.png);
+}
+
+#menu {
+    text-transform: uppercase;
+    font-size: 18pt;
+    font-family: mari-david, 'Just Another Hand', 'comic sans ms';
+    letter-spacing: 0em;
+    list-style-type: none;
+    white-space: nowrap;
+    margin-top: 0px;
+    margin-right: 5px;
+    margin-bottom: 30px;
+    float: right;
+}
+#menu li {
+    display: inline;
+    margin-left: 30px;
+}
+#menu a {
+    color: #4e4e4e;
+    text-decoration: none;
+}
+#menu a:hover {
+    text-decoration: underline;
+}
+
+#left {
+    float: left;
+    width: 725px;
+}
+
+#content h1 {
+    text-transform: uppercase;
+    font-size: 36px;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-family: mari-david, 'Just Another Hand', Helvetica, Arial;
+}
+#content .image {
+    background-color: #bdbdbd;
+    float: left;
+    margin-bottom: 10px;
+    margin-left: 2px;
+}
+#content .image img {
+    background: white;
+    padding: 3px;
+    border: 1px solid #dedede;
+    margin: -4px 2px 2px -4px;
+    display: block;
+    position: relative;
+}
+#content {
+    margin-bottom: 30px;
+    border-bottom: 4px solid #d8d8d8;
+}
+#side {
+    list-style-type: none;   
+    margin: 0px;
+    padding: 0px;
+    border-top: 2px dashed #d8d8d8;
+    text-align: center;
+}
+#side li {
+    border-bottom: 2px dashed #d8d8d8;
+    margin: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#content .over { 
+    margin-top: -371px !important;
+    position: absolute !important; 
+}
+
+#next {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 2px;
+    padding-left: 5px;
+    height: 50px;
+    line-height: 15pt;
+    font-size: 16px;
+    clear: both;
+}
+#next img {
+    float: left;
+    margin-right: 30px;
+    margin-top: 2px;
+}
+#next span {
+    font-weight: bold;
+    display: block;
+    margin-top: 4px;
+}
+#said {
+    background-image: url(/static/images/peoplesaid.png);
+    background-repeat: no-repeat;
+    text-align: right;
+    height: 105px;
+    margin-left: 5px;
+}
+#said .quote {
+    width: 285px;
+    float: right;
+    font-size: 13px;
+    text-align: left;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: 15px 0px;
+    margin-right: 15px;
+}
+#said .quote-text {
+    margin-left: 95px;
+    width: 190px;
+}
+#said .quote-author {
+    text-align: right;
+}
+#quote-2 {
+    background-image: url(/static/images/grue.png);
+    border-left: 2px dashed #d8d8d8;
+}
+#quote-1 {
+    background-image: url(/static/images/carrie.png);
+}
+#quote-1 .quote-text {
+    width: 180px !important;
+}
+
+#related {
+    background-image: url(/static/images/related.png);
+    background-repeat: no-repeat;
+    text-align: left;
+    height: 105px;
+    margin-left: 5px;
+}
+#related ul {
+    list-style-type: none;
+    margin-left: 175px;
+}
+#related a {
+    color: #333;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 2px;
+}
+#related li {
+    margin-bottom: 10px;
+}
+
+#right {
+    float: right;
+    width: 260px;
+    margin-top: 2px;
+}
+.button {
+    margin-top: 20px;
+}
