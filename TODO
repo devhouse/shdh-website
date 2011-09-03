@@ -1,13 +1,17 @@
 Today:
-	* There should be a link on the menu to the old wiki.
+	- There should be a link on the menu to the old wiki.
 	* move the "Next Devhouse" box above the big image.
 	* The sponsor image needs to be updated
-		* we need to pick sponsors
+		- Hacker Dojo
+		- Microsoft
+		- Tech Museum
+		- Google
+		- Palantir
 	* We need a sponsors page that lists them all.
 	* We need to figure out where to pull the "next devhouse" section from.
 	* "Start a Devhouse" page needs heavy editing.
 	* Add Joe to contacts for Lightning talks.
-	* Contact: turn into form that sends an email to the shdh mailing list.
+		* Contact: turn into form that sends an email to the shdh mailing list.
 	* Steal socket.io's subscribe to google groups form thingy for the Attend page.
 	* update the "What is Devhouse" with quotes from the quora answers ( http://www.quora.com/SuperHappyDevHouse/What-goes-on-at-a-SuperHappyDevHouse-event)
 
