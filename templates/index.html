@@ -1,7 +1,14 @@
 {% extends 'base.html' %}
 {% block content %}
   <div id="content">
-    <div class="image" style="margin-bottom: 0px;">
+
+    <div id="next" class="next-main">
+      <img src="/static/images/next.png" width="231" height="41" />
+      <span>SuperHappyDevHouse 42</span>
+      Saturday, February 19th @ 1pm in San Jose
+    </div>
+
+    <div class="image" style="margin-bottom: 30px;">
       <img id="photo" src="/static/images/main.png" width="717" height="361" />
       <img id="over-1" class="over" src="/static/images/main/001.jpg" width="717" height="361" style="display: none;" />
       <img id="over-2" class="over" src="/static/images/main/002.jpg" width="717" height="361" style="display: none;" />
@@ -46,11 +53,6 @@
       }
       $(window).load(next);
     </script>
-    <div id="next">
-      <img src="/static/images/next.png" width="231" height="41" />
-      <span>SuperHappyDevHouse 42</span>
-      Saturday, February 19th @ 1pm in San Jose
-    </div>
   </div>
   {% include "said.html" %}
 {% endblock %}
